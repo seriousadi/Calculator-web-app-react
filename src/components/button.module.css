@@ -1,0 +1,14 @@
+button{
+    width: 5rem;
+    height: 5rem;
+    background-color: #354357;
+    color: #FFFFFD;
+    border: none;
+    border-radius: 2px;
+    margin: 0.5rem;
+    font-size: 2rem;
+}
+button:hover{
+    color:#353857;
+    background-color: #95A6BD;
+}

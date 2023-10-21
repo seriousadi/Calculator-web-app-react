@@ -4,4 +4,8 @@
     width:23rem;
     background-color: aquamarine;
     text-align: right;
+    padding: 1px;
+}
+.text{
+    margin-right: 2rem;
 }

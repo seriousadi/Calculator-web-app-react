@@ -1,7 +1,10 @@
-import buttonStyles from './button.module.css';
+import buttonStyles from './styles/button.module.css';
+
 
 function Button(props){
-    return <button className={buttonStyles}>{props.buttonName}</button>
+    return <button className={buttonStyles} onClick={(btn)=>{
+        props.handle_click(btn.target.innerText)
+    }}>{props.buttonName}</button>
 }
 
 export default Button;
